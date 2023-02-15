@@ -4,10 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload2.
         </p>
         <a
           className="App-link"
@@ -15,9 +15,17 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React wandu !!!
         </a>
-      </header>
+      </header> */}
+      {/* TODO:화면 첫번째 영역 */}
+      <div className="Div_1"></div>
+      {/* TODO:화면 두번째 영역 */}
+      <div className='Div_2'></div>
+      {/* TODO:화면 세번쨰 영역 */}
+      <div className='Div_3'></div>
+      {/* TODO:화면 네번쨰 영역 */}
+      <div className='Div_4'></div>
     </div>
   );
 }

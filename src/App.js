@@ -18,14 +18,14 @@ function App() {
           Learn React wandu !!!
         </a>
       </header> */}
-      {/* TODO:화면 첫번째 영역 */}
-      <div className="Div_1"></div>
-      {/* TODO:화면 두번째 영역 */}
-      <div className='Div_2'></div>
-      {/* TODO:화면 세번쨰 영역 */}
-      <div className='Div_3'></div>
-      {/* TODO:화면 네번쨰 영역 */}
-      <div className='Div_4'></div>
+      <div className='Div1'>
+        <div className="Div_1"></div>
+        <div className='Div_2'></div>
+      </div>
+      <div className='Div2'>
+        <div className='Div_3'></div>
+        <div className='Div_4'></div>
+      </div>
     </div>
   );
 }

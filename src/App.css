@@ -5,34 +5,41 @@ html, body, #root, .App {
   flex-direction: column;
 }
 
-.Div1 {
+.header {
   display: flex;
+  background-color: rgb(241, 201, 150);
+  justify-content: flex-end;
+  align-items: center;
   flex: 1;
 }
 
-.Div2 {
+.contents {
   display: flex;
+  flex: 10;
+}
+
+.footer {
+  display: flex;
+  background-color: antiquewhite;
   flex: 1;
 }
 
-.Div_1 {
-  flex: 1;
-  background: rosybrown;
+.btn {
+  display: flex;
+  padding: 15px 30px;
+  border: 3px solid aliceblue;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px;
+  background: none;
+  border-radius: 15px;
+  color: aliceblue;
 }
 
-.Div_2 {
-  flex: 1;
-  background: rgb(210, 178, 233);
-}
-
-.Div_3 {
-  flex: 1;
-  background: rgb(198, 187, 133);
-}
-
-.Div_4 {
-  flex: 1;
-  background: rgb(159, 216, 200);
+.btn:hover {
+  color: #1e6b7b;
+  background: aliceblue;
 }
 
 @keyframes App-logo-spin {
